@@ -6,12 +6,22 @@
 Welcome to eSourcing's documentation!
 =====================================
 
-Contents:
+.. _client-documentation:
 
 .. toctree::
    :maxdepth: 2
+   :caption: Client Documentation
    
-   license
+   Client/getting_started
+   
+.. _supplier-documentation:
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Supplier Documentation
+   
+   Supplier/getting_started
+   Supplier/public_rfq
 
 
 Indices and tables

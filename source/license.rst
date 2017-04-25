@@ -1,4 +1,0 @@
-License
-=======
-
-This is License.
