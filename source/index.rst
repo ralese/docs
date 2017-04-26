@@ -6,6 +6,12 @@
 Welcome to eSourcing's documentation!
 =====================================
 
+.. toctree::
+   :maxdepth: 2
+   :caption: General
+   
+   Login_Register
+
 .. _client-documentation:
 
 .. toctree::
