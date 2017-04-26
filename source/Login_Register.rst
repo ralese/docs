@@ -6,9 +6,9 @@ Login & Register
 Login
 -----
 
-  .. image:: img_src/login_ss.png
-      :width: 500px
-      :alt: Login Preview
+.. image:: img_src/login_ss.png
+    :width: 550px
+    :alt: Login Preview
 
 	
 If you already have an account, you can login into eSourcing web-app from the `Login Page <http://indoproc.com/esourcing/sign/login>`_:
@@ -16,8 +16,8 @@ If you already have an account, you can login into eSourcing web-app from the `L
 - input your registered email and Password
 
   .. image:: img_src/userpass_ss.png
-      :width: 500px
-      :alt: Login Preview
+    :width: 500px
+    :alt: Login Preview
 
 - click 'login' button
 
@@ -35,8 +35,8 @@ If you forgot the password you use to sign in to Indoproc eSourcing, you might n
   - Input your registered email into the appeared 'forgot password' sidebar
 
   .. image:: img_src/forgot_ss.png
-      :width: 500px
-      :alt: Login Preview
+    :width: 500px
+    :alt: Login Preview
 
   - Click Submit button and the 'reset password' link will be sent to your email
 
@@ -44,7 +44,17 @@ If you forgot the password you use to sign in to Indoproc eSourcing, you might n
 
   - Check your email inbox; if you couldn't find the email, please check your spam/junk folder
   - Click the 'reset password' link and you'll be redirected to 'reset password' page
+  
+  .. image:: img_src/resetemail_ss.png
+    :width: 500px
+    :alt: Login Preview
+  
   - Input your new password and your confirmation password
+    
+  .. image:: img_src/resetpass.png
+    :width: 500px
+    :alt: Login Preview
+  
   - Click change password
   - Now you can login with your new password
   
