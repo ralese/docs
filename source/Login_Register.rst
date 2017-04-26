@@ -6,7 +6,7 @@ Login & Register
 Login
 -----
 
-  .. image:: login_ss.png
+  .. image:: img_src/login_ss.png
       :width: 500px
       :alt: Login Preview
 
@@ -15,7 +15,7 @@ If you already have an account, you can login into eSourcing web-app from the `L
 
 - input your registered email and Password
 
-  .. image:: userpass_ss.png
+  .. image:: img_src/userpass_ss.png
       :width: 500px
       :alt: Login Preview
 
