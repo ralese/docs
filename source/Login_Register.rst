@@ -19,7 +19,7 @@ If you already have an account, you can login into eSourcing web-app from the `L
       :width: 500px
       :alt: Login Preview
 
-- click login
+- click 'login' button
 
 Forgot Password
 ---------------
@@ -33,6 +33,11 @@ If you forgot the password you use to sign in to Indoproc eSourcing, you might n
  
   - Click the 'Forgot Password' link
   - Input your registered email into the appeared 'forgot password' sidebar
+
+  .. image:: img_src/forgot_ss.png
+      :width: 500px
+      :alt: Login Preview
+
   - Click Submit button and the 'reset password' link will be sent to your email
 
  - Reset Password:
