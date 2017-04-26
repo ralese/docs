@@ -1,17 +1,42 @@
 Getting Started
 ===============
 
-This is where supplier start.
-TEST
+This documentation describes the overview about the supplier's role in using Indoproc eSourcing web application.
 
+Login & Register
+----------------
 
-Where to find RFQ to Join?
---------------------------
+Login
+*****
 
-You can find it here!!! :ref:`public_rfq`
-:doc:`Open <public_rfq>`
+If you already have an account, you can login into eSourcing web-app from the `Login Page <http://indoproc.com/esourcing/sign/login>`_:
 
-Where to Register?
-------------------
+ - input your registered email and Password
+ - click login
 
-Open this `link <http://indoproc.com/esourcing/register>`_
+Forgot Password
+***************
+
+If you forgot the password you use to sign in to Indoproc eSourcing, you might need to reset it.
+
+- First, check to make sure that Caps Lock isn't on, because passwords are case-sensitive.
+- To reset password, please follow these instructions below:
+ 
+ - At `Login Page <http://indoproc.com/esourcing/sign/login>`_:
+ 
+  - Click the 'Forgot Password' link
+  - Input your registered email into the appeared 'forgot password' sidebar
+  - Click Submit and the 'reset password' link will be sent to your email
+
+ - Reset Password:
+
+  - Check your email inbox; if you couldn't find the email, please check your spam/junk folder
+  - Click the 'reset password' link and you'll be redirected to 'reset password' page
+  - Input your new password and your confirmation password
+  - Click change password
+  - Now you can login with your new password
+  
+Register
+********
+
+If you don't have an account, you can create a new one from this `link <http://indoproc.com/esourcing/register>`_ or click 'Sign Up' button from the login page
