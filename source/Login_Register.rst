@@ -8,7 +8,7 @@ Login
 
 .. image:: login_ss.png
     :width: 400px
-    :align: center
+    :align: left
     :height: 320px
     :alt: Login Preview
 
