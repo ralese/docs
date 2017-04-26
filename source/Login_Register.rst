@@ -6,6 +6,12 @@ Login & Register
 Login
 -----
 
+.. image:: login_ss.png
+    :width: 750px
+    :align: center
+    :height: 600px
+    :alt: Login Preview
+
 If you already have an account, you can login into eSourcing web-app from the `Login Page <http://indoproc.com/esourcing/sign/login>`_:
 
 - input your registered email and Password
