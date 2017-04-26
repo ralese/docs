@@ -49,11 +49,13 @@ If you forgot the password you use to sign in to Indoproc eSourcing, you might n
     :width: 500px
     :alt: Login Preview
   
+  
   - Input your new password and your confirmation password
     
   .. image:: img_src/resetpass.png
     :width: 500px
     :alt: Login Preview
+  
   
   - Click change password
   - Now you can login with your new password
