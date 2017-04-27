@@ -5,7 +5,7 @@ Public RFQ
 
 Public RFQ can be acessed by public.
 
-finding Public RFQ
+Finding Public RFQ
 ------------------
 
 You can find/view the public RFQ from these options:
@@ -46,7 +46,7 @@ Public RFQ can be viewed before login, but to join or create the quotation login
   1. Filtering the Public RFQ List
   
    - You can filter the Public RFQ list by enter the due date and/or the client company (who created the RFQ) name
-   - Click Show
+   - Click 'Show' button
   
   2. Sort the RFQ List
    
