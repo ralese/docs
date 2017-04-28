@@ -3,7 +3,7 @@
 Public RFQ
 ==========
 
-Public RFQ can be acessed by public.
+Public RFQ can be accessed by public.
 
 Finding Public RFQ
 ------------------
