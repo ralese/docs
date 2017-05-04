@@ -28,6 +28,8 @@ Welcome to eSourcing's documentation!
    
    Supplier/getting_started
    Supplier/public_rfq
+   Supplier/public_rfq_join
+   Supplier/public_rfq_status
 
 
 Indices and tables

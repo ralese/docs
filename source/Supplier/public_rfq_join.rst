@@ -1,0 +1,44 @@
+.. _public_rfq_join:
+
+Join Public RFQ
+===============
+
+We are assuming that you're already at(open) the Public RFQ Detail page.
+
+Before Login
+------------
+
+You can view the public RFQ before you login but for join the public RFQ, login is a must.
+
+ - click the green 'Join' button at the right corner
+ 
+ .. image:: ../img_src/detailrfq_ss.png
+     :width: 700px
+     :alt: role select
+ 
+ - Login form will be shown from the dropdown menu
+ 
+  .. image:: ../img_src/logindrop.png
+     :width: 400px
+     :alt: role select
+ 
+ - If you're not registered yet, you can sign up a new account by click the 'Sign Up' button
+ - If you already have an account, input your email and password, then click 'Login' button
+ - after login, read the instruction for after login below
+
+
+After Login
+-----------
+
+ - Click the green 'Send Quotation' button at the right corner
+ 
+ - you'll be redirected to quotation submit page
+ 
+ - you just need to input your bid price (the unit price will be automatically calculated)
+ 
+ - you can upload your support files/attachment (format file supported: \*.png, \*.gif, \*.jpg, \*.jpeg, \*.doc, \*.docx, \*.xls, \*.xlsx, \*.pdf)
+ 
+ - you can add notes to the quotation
+ 
+ - Click 'Submit Quotation'
+
