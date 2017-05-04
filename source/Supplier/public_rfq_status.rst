@@ -25,14 +25,14 @@ Send Revision
   
 You still can offer a quotation revision if the RFQ still open.
 
-- Click 'Offer Revision' button from your submitted quotation list
+- Click 'Offer Revision' button from your submitted quotation list.
 
  .. image:: ../img_src/public_rfq_status_2.png
      :width: 700px
      :alt: role select
 
-- you'll be redirected to quotation submit page
-- input your new bid price (the unit price will be automatically calculated)
-- you can upload your support files/attachment (format file supported: \*.png, \*.gif, \*.jpg, \*.jpeg, \*.doc, \*.docx, \*.xls, \*.xlsx, \*.pdf)
-- you can add notes to the quotation
-- Click 'Submit Quotation'
+- You will be redirected to quotation submit page.
+- Input your new bid price (the unit price will be automatically calculated).
+- If you have any support document for this quotation, you can upload the document in this page (format file supported: \*.png, \*.gif, \*.jpg, \*.jpeg, \*.doc, \*.docx, \*.xls, \*.xlsx, \*.pdf)
+- Then, you could add your notes for this quotation.
+- After finishing this step, click 'Submit Quotation' to submit.
