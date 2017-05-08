@@ -32,13 +32,21 @@ After Login
 
  - Click the green 'Send Quotation' button at the right corner
  
+   .. image:: ../img_src/send_ss.png
+    :width: 450px
+    :alt: role select
+ 
  - you'll be redirected to quotation submit page
+ 
+   .. image:: ../img_src/submit_ss.png
+    :width: 700px
+    :alt: role select
  
  - you just need to input your bid price (the unit price will be automatically calculated)
  
- - you can upload your support files/attachment (format file supported: \*.png, \*.gif, \*.jpg, \*.jpeg, \*.doc, \*.docx, \*.xls, \*.xlsx, \*.pdf)
+ - you can upload your support files/attachment for each item(format file supported: \*.png, \*.gif, \*.jpg, \*.jpeg, \*.doc, \*.docx, \*.xls, \*.xlsx, \*.pdf)
  
- - you can add notes to the quotation
+ - you can add notes to the quotation plus, you can add your support files/attachment for your quotation
  
  - Click 'Submit Quotation'
 
