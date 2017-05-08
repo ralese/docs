@@ -17,7 +17,7 @@ list of your submitted quotation can be accessed from the quotation history menu
  - All: show all of your quotation
  - In Progress: show your currently active quotation and you can still offer revision (instruction below)
  - Success: show your success bid/quotation
- - Unsuccess: show your unsuccess bid/quotationa
+ - Unsuccess: show your unsuccess bid/quotation
 
 
 Send Revision
