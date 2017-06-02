@@ -25,7 +25,7 @@ Send Revision
   
 You still can offer a quotation revision if the RFQ still open.
 
-- Click 'Offer Revision' button from your submitted quotation list
+- Click 'Revise' button from your submitted quotation list
 
  .. image:: ../img_src/offer-ss.png
     :width: 700px

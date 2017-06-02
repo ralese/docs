@@ -44,11 +44,12 @@ Public RFQ can be viewed before login, but to join or create the quotation login
      :width: 700px
      :alt: role select
    
-   You can view the details of the Public RFQ by clicking the public RFQ title
+   - You can view the details of the Public RFQ by clicking the public RFQ title or click the 'View Detail' button
+   
    
   4. Join RFQ
   
-   You can join the RFQ after you login/register, so you'll be automatically redirected to the register page after clicking the 'Join' button.
+   You can join the RFQ after you login/register, so you'll be automatically redirected to the register page after clicking the 'Join' button
   
 - Public RFQ Page:
   
