@@ -19,6 +19,8 @@ Welcome to eSourcing's documentation!
    :caption: Client Documentation
    
    Client/getting_started
+   Client/supplier_list
+   Client/rfq
    
 .. _supplier-documentation:
 

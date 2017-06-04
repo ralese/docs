@@ -1,26 +1,51 @@
-
+.. _supplier_list:
 
 Supplier List
 =============
 
-When you login as client, you will have "Supplier List" menu. This menu is designed to handle supplier information when we want to create a request.
+You can add your own supplier list into this website for invite them to your created RFQ later. To add or view your supplier list, you can click 'Supplier List' menu.
+
+.. image:: ../img_src/suplist_ss.png
+    :width: 700px
+    :alt: Login Section
 
 - There are list of your supplier that will be shown in this page. It will show supplier name, category, contact person, phone and email of that supplier.
 - You can filter the supplier by its name and by category that applied to them.
 - You can also sort the supplier by its name or contact person alphabetically.
-- For create new supplier:
+
+Create New Supplier
+-------------------
+
+ .. image:: ../img_src/addsup.png
+     :width: 600px
+     :alt: Login Section
 
  - Click "Add Supplier" button on the top right of this page.
+ 
+ .. image:: ../img_src/supedit.png
+    :width: 600px
+    :alt: Login Section
+ 
  - Side panel will be opened and you could input the company type, company name, category, contact person, email and phone.
  - Then you can click "Save" button to save the supplier. 
  
-- For edit supplier:
+Edit/Update Supplier
+--------------------
+ 
+ .. image:: ../img_src/supedit.png
+    :width: 600px
+    :alt: Login Section
  
  - You can click "Edit" button on the row you want to edit.
  - Side panel will be opened and you can change the company data in there.
  - Then you can click "Save" button to save the supplier.
  
-- For importing new supplier:
+Import Your Supplier List
+-------------------------
+
+ .. image:: ../img_src/supup.png
+    :width: 600px
+    :alt: Login Section
 
  - You can click on "Upload Supplier" on the top right of the page.
  - Side panel will be opened and click "Download Excel" to download excel template for supplier data.
