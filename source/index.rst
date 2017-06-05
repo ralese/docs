@@ -31,6 +31,7 @@ Welcome to eSourcing's documentation!
    Supplier/getting_started
    Supplier/public_rfq
    Supplier/public_rfq_join
+   Supplier/private_rfq_join
    Supplier/public_rfq_status
 
 

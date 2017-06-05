@@ -8,6 +8,8 @@ We are assuming that you're already at(open) the Public RFQ Detail page.
 Before Login
 ------------
 
+*If you're already logged in and already in the Public RFQ detail page, you can skip this section.
+
 You can view the public RFQ before you login but for join the public RFQ, login is a must.
 
  - click the green 'Join' button at the right corner
@@ -24,11 +26,10 @@ You can view the public RFQ before you login but for join the public RFQ, login 
  
  - If you're not registered yet, you can sign up a new account by click the 'Sign Up' button
  - If you already have an account, input your email and password, then click 'Login' button
- - after login, read the instruction for after login below
+ - after login, read the instruction at 'Create Quotation' section below.
 
-
-After Login
------------
+Create Quotation
+----------------
 
  - Click the green 'Send Quotation' button at the right corner
  
