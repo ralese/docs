@@ -34,6 +34,14 @@ Welcome to eSourcing's documentation!
    Supplier/private_rfq_join
    Supplier/public_rfq_status
 
+.. _apis-documentation:
+
+.. toctree::
+   :maxdepth: 2
+   :caption: API Documentation
+	
+   Apis/getting_started
+   
 
 Indices and tables
 ==================
