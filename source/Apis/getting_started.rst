@@ -13,3 +13,29 @@ The :py:class:`region` may be provided as query paramater in order to restrict r
    
    "id", "string", "The unique identifier for the Block Storage volume."
    "region", "object", "The region that the Block Storage volume is located in. When setting a region, the value should be the slug identifier for the region. When you query a Block Storage volume, the entire region object will be returned."
+   "droplet_ids", "array", "An array containing the IDs of the Droplets the volume is attached to. Note that at this time, a volume can only be attached to a single Droplet."
+   "name", "string", "A human-readable name for the Block Storage volume. Must be lowercase and be composed only of numbers, letters and '-', up to a limit of 64 characters."
+   "description", "string", "An optional free-form text field to describe a Block Storage volume."
+   "size_gigabytes", "number", "The size of the Block Storage volume in GiB (1024^3)."
+   "created_at", "string", "A time value given in ISO8601 combined date and time format that represents when the Block Storage volume was created."
+   "droplet_ids", "array", "This attribute is an array of the Droplets that the volume is attached to."
+   
+CURL EXAMPLE::
+
+ curl -X GET -H "Content-Type: application/json" -H "Authorization: Bearer b7d03a6947b217efb6f3ec3bd3504582" "https://api.digitalocean.com/v2/volumes?region=nyc1"
+
+REQUEST HEADERS::
+
+ Content-Type: application/json
+ Authorization: Bearer b7d03a6947b217efb6f3ec3bd3504582
+ 
+RESPONSE HEADERS::
+
+ content-type: application/json; charset=utf-8
+ status: 200 OK
+ ratelimit-limit: 5000
+ ratelimit-remaining: 4823
+ ratelimit-reset: 1444931833
+
+
+
