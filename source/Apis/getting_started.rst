@@ -39,7 +39,7 @@ RESPONSE HEADERS::
 
 RESPONSE BODY
 
-.. code-block:: html
+.. code-block:: js
    :linenos:
  
    {
