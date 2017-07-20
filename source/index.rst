@@ -40,7 +40,7 @@ Welcome to eSourcing's documentation!
    :maxdepth: 2
    :caption: API Documentation
 	
-   Apis/getting_started
+   Apis/rfq
    
 
 Indices and tables
