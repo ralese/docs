@@ -3,14 +3,20 @@ List all RFQ List
 
 To list all of the RFQ on your account send a :py:class:`GET` request to :py:class:`/v1/rfqs`.
 
-CURL EXAMPLE::
+CURL EXAMPLE
 
- curl -X GET -H "Content-Type: application/json" -H "Authorization: Bearer b7d03a6947b217efb6f3ec3bd3504582" "https://api.digitalocean.com/v2/volumes?region=nyc1"
+.. code-block:: js
+   :linenos:
+
+   curl -X GET -H "Content-Type: application/json" -H "Authorization: Bearer 12d3ee8b78ea8d4d09175ebf65c25584d7b269b2" "https://indoproc.com/esourcing/v1/rfqs/"
  
-REQUEST HEADERS::
+REQUEST HEADERS
 
- Content-Type: application/x-www-form-urlencoded
- Authorization: Bearer 12d3ee8b78ea8d4d09175ebf65c25584d7b269b2
+.. code-block:: js
+   :linenos:
+
+   Content-Type: application/x-www-form-urlencoded
+   Authorization: Bearer 12d3ee8b78ea8d4d09175ebf65c25584d7b269b2
 
 The response will be a JSON object with a key called :py:class:`rfqs`. This will be set to an array of RFQ objects, each of which will contain the standard RFQ attributes.
 
@@ -32,10 +38,13 @@ The response will be a JSON object with a key called :py:class:`rfqs`. This will
    "created_date", "string", "RFQ created date in a string type; contains Unix Time Stamp (miliseconds since Jan 01 1970 in UTC)"
    "created_by", "String", "Email of the RFQ creator"
  
-RESPONSE HEADERS::
+RESPONSE HEADERS
 
- content-type: application/json; charset=utf-8
- status: 200 OK
+.. code-block:: js
+   :linenos:
+   
+   content-type: application/json; charset=utf-8
+   status: 200 OK
 
 RESPONSE BODY
 
