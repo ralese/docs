@@ -52,7 +52,7 @@ RESPONSE BODY
    :linenos:
  
    {
-    "rfqs": [
+       "rfqs": [
         {
             "_id": 14,
             "title": "Indomie Rasa Ayam Bawang",
@@ -106,14 +106,14 @@ RESPONSE BODY
             },
             "created_by": "andywihalim2@gmail.com"
         },
-    ],
-    "links": {
-        "next": "http://etender.andy.indoproc.xyz/v1/rfqs?page=2",
-        "last": "http://etender.andy.indoproc.xyz/v1/rfqs?page=3"
-    },
-    "meta": {
-        "total": 42
-    }
+        ],
+        "links": {
+            "next": "http://etender.andy.indoproc.xyz/v1/rfqs?page=2",
+            "last": "http://etender.andy.indoproc.xyz/v1/rfqs?page=3"
+        },
+        "meta": {
+            "total": 42
+        }
    }
 
 
