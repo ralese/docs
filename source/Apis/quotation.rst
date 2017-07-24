@@ -46,7 +46,7 @@ RESPONSE BODY
 .. code-block:: js
    :linenos:
  
-{
+   {
     "1": {
         "sup_id": "1",
         "sup_name": "PT. Angkasa Beverage",
@@ -115,6 +115,6 @@ RESPONSE BODY
         },
         "status": "success"
     }
-}
+   }
 
 
