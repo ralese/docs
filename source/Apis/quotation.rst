@@ -1,14 +1,14 @@
-List all RFQ List
-=================
+List of Quotation by RFQ ID
+===========================
 
-To list all of the RFQ on your account send a :py:class:`GET` request to :py:class:`/v1/rfqs`.
+To list all quotation inside RFQ on your account send a :py:class:`GET` request to :py:class:`/v1/quotations`.
 
 CURL EXAMPLE
 
 .. code-block:: js
    :linenos:
 
-   curl -X GET -H "Content-Type: application/json" -H "Authorization: Bearer 12d3ee8b78ea8d4d09175ebf65c25584d7b269b2" "https://indoproc.com/esourcing/v1/rfqs/"
+   curl -X GET -H "Content-Type: application/json" -H "Authorization: Bearer 12d3ee8b78ea8d4d09175ebf65c25584d7b269b2" "https://indoproc.com/esourcing/v1/quotations/"
  
 REQUEST HEADERS
 
@@ -18,25 +18,20 @@ REQUEST HEADERS
    Content-Type: application/x-www-form-urlencoded
    Authorization: Bearer 12d3ee8b78ea8d4d09175ebf65c25584d7b269b2
 
-The response will be a JSON object with a key called :py:class:`rfqs`. This will be set to an array of RFQ objects, each of which will contain the standard RFQ attributes.
+The response will be a JSON object with a key called :py:class:`quotations`. This will be set to an array of quotation objects, each of which will contain the standard quotation attributes.
 
 .. csv-table::
    :header: "Name", "Type", "Description"
    :widths: 2, 2, 6
    
-   "_id", "Integer", "The unique identifier for the RFQ."
-   "title", "string", "RFQ title"
-   "due_date", "string", "the due date of RFQ in a string type; contains Unix Time Stamp (miliseconds since Jan 01 1970 in UTC)"
-   "required_date", "string", "the required date of RFQ items in a string type; contains Unix Time Stamp (miliseconds since Jan 01 1970 in UTC)"
-   "rfq_date", "string", "RFQ created date in a string type; contains Unix Time Stamp (miliseconds since Jan 01 1970 in UTC)"
-   "description", "string", "An optional free-form text field to describe the RFQ"
-   "lines", "Array", "An array contains lists of item in the RFQ"
-   "rfq_no", "Integer", "Numeral count of RFQ that created by the creator company"
-   "comp_srl", "String", "The unique identifier for the creator company"
-   "comp_name", "String", "Name of company who create the RFQ"
-   "version", "Integer", "The number of RFQ version based on number of update/data changes"
-   "created_date", "string", "RFQ created date in a string type; contains Unix Time Stamp (miliseconds since Jan 01 1970 in UTC)"
-   "created_by", "String", "Email of the RFQ creator"
+   "sup_id", "Integer", "The unique identifier for the Supplier or Company that submit the quotation."
+   "sup_name", "string", "String that contains supplier name"
+   "revision_no", "Integer", "Number that describe revision count on quotation"
+   "quotation_date", "string", "the quotation date on RFQ; contains Unix Time Stamp (miliseconds since Jan 01 1970 in UTC)"
+   "notes", "string", "string that contains notes for that quotation"
+   "quotation_detail", "Array", "An array of object that contains item codes with quotation price and document for each item from user."
+   "quotation_attachment", "Array", "An array contains quotation documents"
+   "status", "string", "string that contains status of rfq whether qualified or not qualified"
  
 RESPONSE HEADERS
 
@@ -52,68 +47,74 @@ RESPONSE BODY
    :linenos:
  
    {
-       "rfqs": [
-        {
-            "_id": 14,
-            "title": "Indomie Rasa Ayam Bawang",
-            "due_date": {
-                "$date": {
-                    "$numberLong": "1492668000613"
+    "1": {
+        "sup_id": "1",
+        "sup_name": "PT. Angkasa Beverage",
+        "revision_no": 0,
+        "quotation_date": "Fri May 05 2017 17:26:41 GMT+0700 (SE Asia Standard Time)",
+        "notes": "Test data 1",
+        "quotation_detail": {
+            "590c4a664a7b6137ff7ba8c2": {
+                "price": "10000000",
+                "docs": {
+                    "0": {
+                        "file_name": "18ced9e0568fa564ccc5495480e58e04.jpg",
+                        "doc_name": "Arm_Astalos.jpg"
+                    }
                 }
             },
-            "required_date": {
-                "$date": {
-                    "$numberLong": "1493100000783"
+            "590c4a664a7b6137ff7ba8c3": {
+                "price": "18000000",
+                "docs": {
+                    "0": {
+                        "file_name": "e6199f0964b6e02a237d83d75007382d.jpg",
+                        "doc_name": "Arm_Gammoth.jpg"
+                    }
                 }
-            },
-            "rfq_date": {
-                "$date": {
-                    "$numberLong": "1492066348215"
-                }
-            },
-            "description": "Bumbu dari ayam yang sudah mati",
-            "lines": {
-                "0": {
-                    "product_name": "Indomie",
-                    "specification": "Rasa Ayam Bawang",
-                    "uom": "Box isi 48",
-                    "qty": "50",
-                    "estimated_price": "2500000",
-                    "line_id": "58ef20294a7b614c8e224322",
-                    "each_price": "50000",
-                    "status": "active",
-                    "docs": {}
-                }
-            },
-            "invitation": {
-                "0": {
-                    "sup_name": "PT. Indofood Sukses Makmur",
-                    "contact": "Anthony Salim",
-                    "sup_email": "info@indofood.id",
-                    "sup_id": "4",
-                    "status": "pending"
-                }
-            },
-            "rfq_no": 1,
-            "comp_srl": "32",
-            "comp_name": "Indoproc",
-            "version": 1,
-            "status": "cancelled",
-            "created_date": {
-                "$date": {
-                    "$numberLong": "1492066345000"
-                }
-            },
-            "created_by": "andywihalim2@gmail.com"
+            }
         },
-        ],
-        "links": {
-            "next": "http://etender.andy.indoproc.xyz/v1/rfqs?page=2",
-            "last": "http://etender.andy.indoproc.xyz/v1/rfqs?page=3"
+        "quotation_attachment": {
+            "0": {
+                "file_name": "2e79ce72899d1112d93be41bc2577a2d.jpg",
+                "doc_name": "Arm_Mizutsune.jpg"
+            }
         },
-        "meta": {
-            "total": 42
-        }
+        "status": "unsuccess"
+    },
+    "comp_38": {
+        "sup_id": "38",
+        "sup_name": "Bernard Ltd",
+        "revision_no": 0,
+        "quotation_date": "Fri May 05 2017 17:28:37 GMT+0700 (SE Asia Standard Time)",
+        "notes": "Ask us",
+        "quotation_detail": {
+            "590c4a664a7b6137ff7ba8c2": {
+                "price": "9000000",
+                "docs": {
+                    "0": {
+                        "file_name": "23d345480d798293fc9cdb4efb58f2a0.jpg",
+                        "doc_name": "Arm_Mizutsune.jpg"
+                    }
+                }
+            },
+            "590c4a664a7b6137ff7ba8c3": {
+                "price": "12000000",
+                "docs": {
+                    "0": {
+                        "file_name": "264a442b5ee14a2864c02c24ed1b8596.jpg",
+                        "doc_name": "Arm_Mizutsune.jpg"
+                    }
+                }
+            }
+        },
+        "quotation_attachment": {
+            "0": {
+                "file_name": "dba262521b176f1ff37ca159178bb110.jpg",
+                "doc_name": "Arm_Mizutsune.jpg"
+            }
+        },
+        "status": "success"
+    }
    }
 
 
