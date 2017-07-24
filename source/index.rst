@@ -44,6 +44,7 @@ Welcome to eSourcing's documentation!
    Apis/rfq_status
    Apis/rfq_detail
    Apis/rfq_post
+   Apis/rfq_put
    Apis/vendor
    Apis/vendor_category
    Apis/vendor_detail
