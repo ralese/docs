@@ -43,9 +43,9 @@ Welcome to eSourcing's documentation!
    Apis/rfq
    Apis/rfq_status
    Apis/rfq_detail
-   Apis/supplier
-   Apis/supplier_category
-   Apis/supplier_detail
+   Apis/vendor
+   Apis/vendor_category
+   Apis/vendor_detail
    Apis/quotation
 
 Indices and tables
