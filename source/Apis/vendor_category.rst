@@ -18,7 +18,7 @@ REQUEST HEADERS
    Content-Type: application/x-www-form-urlencoded
    Authorization: Bearer 12d3ee8b78ea8d4d09175ebf65c25584d7b269b2
 
-The response will be a JSON object with a key called :py:class:`vendors`. This will be set to an array of vendor objects, each of which will contain the standard vendor attributes.
+The response will be a JSON array with a key called :py:class:`vendors`. This will be set to an object of vendor arrays, each of which will contain the standard vendor attributes.
 
 .. csv-table::
    :header: "Name", "Type", "Description"
@@ -30,7 +30,7 @@ The response will be a JSON object with a key called :py:class:`vendors`. This w
    "contact_person", "string", "String that contains a person name that you should contact for this vendor"
    "sup_email", "string", "String that contains an email of contact for this vendor"
    "sup_phone", "string", "String that contains a phone of contact for this vendor"
-   "categories", "Array", "An array that contains all categories for this vendor"
+   "categories", "object", "An object that contains all categories for this vendor"
    "comp_srl", "String", "The unique identifier for the creator company"
  
 RESPONSE HEADERS
@@ -47,34 +47,36 @@ RESPONSE BODY
    :linenos:
    
    {
-        "_id": 1,
-        "sup_name": "Axxon Retails",
-        "sup_type": "PT",
-        "contact_person": "Alvin",
-        "sup_email": "alvin@axxpha.com",
-        "sup_phone": "08785855645",
-        "categories": {
-            "0": "Custom Printing",
-            "1": "Komputer & Aksesoris",
-            "2": "Elektronik",
-            "3": "Perlengkapan Kantor"
-        },
-        "comp_srl": "1"
-    },
-    {
-        "_id": 2,
-        "sup_name": "Braddford Technology",
-        "sup_type": "PT",
-        "contact_person": "Adam",
-        "sup_email": "adam@braddtech.com",
-        "sup_phone": "098900902292",
-        "categories": {
-            "0": "Custom Printing",
-            "1": "Elektronik"
-        },
-        "comp_srl": "1
-    }
-	...
-	
+       "vendors": [
+            {
+                "_id": 1,
+                "sup_name": "Axxon Retails",
+                "sup_type": "PT",
+                "contact_person": "Alvin",
+                "sup_email": "alvin@axxpha.com",
+                "sup_phone": "08785855645",
+                "categories": {
+                    "0": "Custom Printing",
+                    "1": "Komputer & Aksesoris",
+                    "2": "Elektronik",
+                    "3": "Perlengkapan Kantor"
+                },
+                "comp_srl": "1"
+            {
+                "_id": 2,
+                "sup_name": "Braddford Technology",
+                "sup_type": "PT",
+                "contact_person": "Adam",
+                "sup_email": "adam@braddtech.com",
+                "sup_phone": "098900902292",
+                "categories": {
+                    "0": "Custom Printing",
+                    "1": "Elektronik"
+                },
+                "comp_srl": "1
+            }
+            ...
+        ]
+   }
 
 

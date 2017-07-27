@@ -20,7 +20,7 @@ REQUEST HEADERS
    
 REQUEST BODY
 
-These are the attributes that can be added to the array of request body:
+These are the attributes that can be added to the object of request body:
 
 .. csv-table::
    :header: "Name", "Type", "Description"
@@ -30,11 +30,25 @@ These are the attributes that can be added to the array of request body:
    "due_date", "string", "the due date of RFQ in a string type; contains Unix Time Stamp (miliseconds since Jan 01 1970 in UTC)"
    "required_date", "string", "the required date of RFQ items in a string type; contains Unix Time Stamp (miliseconds since Jan 01 1970 in UTC)"
    "description", "string", "An optional free-form text field to describe the RFQ"
-   "lines", "Array", "An array contains lists of item in the RFQ"
+   "lines", "object", "An object contains lists of item in the RFQ. See the :py:class:`lines` attributes format below."
    "rfq_type", "string", "The type of the RFQ (Public/Private)"
    "rfq_category", "String", "The category of the RFQ"
    "rfq_location", "String", "The RFQ Location"
 
+These are the attributes of items that can be added to :py:class:`lines` object described above:
+   
+.. csv-table::
+   :header: "Name", "Type", "Description"
+   :widths: 2, 2, 6
+   
+   "product_name", "string", "Name of product/item"
+   "specification", "string", "Specification of item"
+   "uom", "string", "Unit of Measurement"
+   "qty", "Integer", "Quantity of item"
+   "estimated_price", "Integer", "Total price of the specific item"
+   "each_price", "String", "price of 1 item"
+   "status", "String", "Status of the item, use: :py:class:`active`"
+   
 These are the sample of Request Body:
 
 .. code-block:: js
@@ -52,7 +66,6 @@ These are the sample of Request Body:
                 "uom": "Pcs",
                 "qty": 12,
                 "estimated_price": 12000000,
-                "line_id": "",
                 "each_price": 1000000,
                 "status": "active"
            },
