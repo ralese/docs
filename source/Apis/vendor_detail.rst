@@ -1,7 +1,7 @@
 Get Specific Vendor
 ===================
 
-To get specific vendor on your account send a :py:class:`GET` request to :py:class:`/v1/vendors` with parameter of your vendor id.
+To get specific vendor on your account send a :py:class:`GET` request to :py:class:`/v1/vendors/$VENDOR_ID`.
 
 CURL EXAMPLE
 

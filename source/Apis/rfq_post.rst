@@ -46,7 +46,7 @@ These are the attributes of items that can be added to :py:class:`lines` object 
    "uom", "string", "Unit of Measurement"
    "qty", "Integer", "Quantity of item"
    "estimated_price", "Integer", "Total price of the specific item"
-   "each_price", "String", "price of 1 item"
+   "each_price", "Integer", "price of 1 item"
    "status", "String", "Status of the item, use: :py:class:`active`"
    
 These are the sample of Request Body:

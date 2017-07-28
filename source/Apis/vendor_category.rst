@@ -1,14 +1,14 @@
 Get List of Vendor by Category
 ==============================
 
-To get list of vendor by using category on your account send a :py:class:`GET` request to :py:class:`/v1/vendors`.
+To get list of vendor by using category on your account send a :py:class:`GET` request to :py:class:`/v1/vendors?categories=$VENDOR_CATEGORY_1|$VENDOR_CATEGORY_2|...`.
 
 CURL EXAMPLE
 
 .. code-block:: js
    :linenos:
 
-   curl -X GET -H "Content-Type: application/json" -H "Authorization: Bearer 12d3ee8b78ea8d4d09175ebf65c25584d7b269b2" "https://indoproc.com/esourcing/v1/vendors/?categories=Elektronik|Perlengkapan%20Kantor"
+   curl -X GET -H "Content-Type: application/json" -H "Authorization: Bearer 12d3ee8b78ea8d4d09175ebf65c25584d7b269b2" "https://indoproc.com/esourcing/v1/vendors?categories=Elektronik|Perlengkapan%20Kantor"
  
 REQUEST HEADERS
 
@@ -51,32 +51,26 @@ RESPONSE BODY
             {
                 "_id": 1,
                 "sup_name": "Axxon Retails",
-                "sup_type": "PT",
-                "contact_person": "Alvin",
-                "sup_email": "alvin@axxpha.com",
+				"sup_email": "alvin@axxpha.com",
+				"contact_person": "Alvin",
+                "comp_srl": "1",
+				"sup_type": "PT",
                 "sup_phone": "08785855645",
                 "categories": {
                     "0": "Custom Printing",
                     "1": "Komputer & Aksesoris",
                     "2": "Elektronik",
                     "3": "Perlengkapan Kantor"
-                },
-                "comp_srl": "1"
-            {
-                "_id": 2,
-                "sup_name": "Braddford Technology",
-                "sup_type": "PT",
-                "contact_person": "Adam",
-                "sup_email": "adam@braddtech.com",
-                "sup_phone": "098900902292",
-                "categories": {
-                    "0": "Custom Printing",
-                    "1": "Elektronik"
-                },
-                "comp_srl": "1
-            }
+            },
             ...
         ]
+		"links": {
+            "next": "http://etender.andy.indoproc.xyz/v1/vendors?page=2",
+            "last": "http://etender.andy.indoproc.xyz/v1/vendors?page=2"
+        },
+        "meta": {
+            "total": 25
+        }
    }
 
 
