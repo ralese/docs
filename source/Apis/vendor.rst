@@ -1,14 +1,14 @@
 List all Vendor List
-=================
+====================
 
-To list all of the vendor on your account send a :py:class:`GET` request to :py:class:`/v1/rfqs`.
+To list all of the vendor on your account send a :py:class:`GET` request to :py:class:`/v1/vendors`.
 
 CURL EXAMPLE
 
 .. code-block:: js
    :linenos:
 
-   curl -X GET -H "Content-Type: application/json" -H "Authorization: Bearer 12d3ee8b78ea8d4d09175ebf65c25584d7b269b2" "https://indoproc.com/esourcing/v1/vendor/"
+   curl -X GET -H "Content-Type: application/json" -H "Authorization: Bearer 12d3ee8b78ea8d4d09175ebf65c25584d7b269b2" "https://indoproc.com/esourcing/v1/vendors/"
  
 REQUEST HEADERS
 
@@ -32,6 +32,8 @@ The response will be a JSON object with a key called :py:class:`vendors`. This w
    "sup_phone", "string", "String that contains a phone of contact for this vendor"
    "categories", "Array", "An array that contains all categories for this vendor"
    "comp_srl", "String", "The unique identifier for the creator company"
+   "links", "Object", "Object that contains link from next and last url of vendor data"
+   "meta", "Integer", "Number that indicate count of vendors data in your account"
  
 RESPONSE HEADERS
 
@@ -46,35 +48,40 @@ RESPONSE BODY
 .. code-block:: js
    :linenos:
    
-   {
-        "_id": 1,
-        "sup_name": "Axxon Retails",
-        "sup_type": "PT",
-        "contact_person": "Alvin",
-        "sup_email": "alvin@axxpha.com",
-        "sup_phone": "08785855645",
-        "categories": {
-            "0": "Custom Printing",
-            "1": "Komputer & Aksesoris",
-            "2": "Elektronik",
-            "3": "Perlengkapan Kantor"
+	{
+		"vendors": [
+            {
+                "_id": 27,
+                "sup_name": "Test 1231 232",
+                "sup_type": "CV",
+                "contact_person": "Autla",
+                "sup_email": "",
+                "sup_phone": "9499999",
+                "categories": {
+                    "0": "Industrial & Tools",
+                    "1": "Building & Construction"
+                },
+                "comp_srl": "8"
+            },
+            {
+                "_id": 28,
+                "sup_name": "Reinhart6",
+                "sup_type": "PT",
+                "contact_person": "1234",
+                "sup_email": "regan.reinhart@gmail.com",
+                "sup_phone": "1234",
+                "categories": {
+                    "0": "Custom Printing"
+                },
+                "comp_srl": "8"
+            }
+        ],
+        "links": {
+            "next": "http://etender.bernard.indoproc.xyz/v1/vendors?page=2",
+            "last": "http://etender.bernard.indoproc.xyz/v1/vendors?page=2"
         },
-        "comp_srl": "1"
-    },
-    {
-        "_id": 2,
-        "sup_name": "Braddford Technology",
-        "sup_type": "PT",
-        "contact_person": "Adam",
-        "sup_email": "adam@braddtech.com",
-        "sup_phone": "098900902292",
-        "categories": {
-            "0": "Custom Printing",
-            "1": "Elektronik"
-        },
-        "comp_srl": "1
+        "meta": {
+            "total": 25
+        }
     }
-	...
 	
-
-
