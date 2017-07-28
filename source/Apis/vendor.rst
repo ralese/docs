@@ -33,7 +33,7 @@ The response will be a JSON object with a key called :py:class:`vendors`. This w
    "categories", "Array", "An array that contains all categories for this vendor"
    "comp_srl", "String", "The unique identifier for the creator company"
    "links", "Object", "Object that contains link from next and last url of vendor data"
-   "meta", "Integer", "Number that indicate count of vendors data in your account"
+   "meta", "Object", "Object that contains count of vendors data in your account"
  
 RESPONSE HEADERS
 
@@ -52,11 +52,11 @@ RESPONSE BODY
 		"vendors": [
             {
                 "_id": 27,
-                "sup_name": "Test 1231 232",
-                "sup_type": "CV",
-                "contact_person": "Autla",
-                "sup_email": "",
-                "sup_phone": "9499999",
+                "sup_name": "Antavalue Building Construction",
+                "sup_type": "PT",
+                "contact_person": "Samuel",
+                "sup_email": "samuel@antavalue.com",
+                "sup_phone": "0923-0999-0293",
                 "categories": {
                     "0": "Industrial & Tools",
                     "1": "Building & Construction"
@@ -65,11 +65,11 @@ RESPONSE BODY
             },
             {
                 "_id": 28,
-                "sup_name": "Reinhart6",
+                "sup_name": "Klondike Valueline",
                 "sup_type": "PT",
-                "contact_person": "1234",
-                "sup_email": "regan.reinhart@gmail.com",
-                "sup_phone": "1234",
+                "contact_person": "Akhmad",
+                "sup_email": "akhmad90@klondikeval.com",
+                "sup_phone": "0988-3321-5232",
                 "categories": {
                     "0": "Custom Printing"
                 },
