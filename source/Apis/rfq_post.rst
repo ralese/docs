@@ -46,8 +46,7 @@ These are the attributes of items that can be added to :py:class:`lines` object 
    "uom", "string", "Unit of Measurement"
    "qty", "Integer", "Quantity of item"
    "estimated_price", "Integer", "Total price of the specific item"
-   "each_price", "Integer", "price of 1 item"
-   "status", "String", "Status of the item, use: :py:class:`active`"
+   "external_id", "string", "[Optional] Field that used to link to external detail identifier"
    
 These are the sample of Request Body:
 
@@ -65,9 +64,7 @@ These are the sample of Request Body:
                 "specification": "Dimension: 4 x 3 x 1 in meter",
                 "uom": "Pcs",
                 "qty": 12,
-                "estimated_price": 12000000,
-                "each_price": 1000000,
-                "status": "active"
+                "estimated_price": 12000000
            },
 		   
 		   ...
