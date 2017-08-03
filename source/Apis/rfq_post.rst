@@ -8,14 +8,14 @@ CURL EXAMPLE
 .. code-block:: js
    :linenos:
 
-   curl -X POST -H "Content-Type: application/application/x-www-form-urlencoded" -H "Authorization: Bearer 12d3ee8b78ea8d4d09175ebf65c25584d7b269b2" "http://indoproc.com/esourcing/v1/rfqs" -D "$REQUEST_BODY"
+   curl -X POST -H "Content-Type: application/json" -H "Authorization: Bearer 12d3ee8b78ea8d4d09175ebf65c25584d7b269b2" "http://indoproc.com/esourcing/v1/rfqs" -D "$REQUEST_BODY"
  
 REQUEST HEADERS
 
 .. code-block:: js
    :linenos:
 
-   Content-Type: application/x-www-form-urlencoded
+   Content-Type: application/json
    Authorization: Bearer 12d3ee8b78ea8d4d09175ebf65c25584d7b269b2
    
 REQUEST BODY

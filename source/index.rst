@@ -48,6 +48,8 @@ Welcome to eSourcing's documentation!
    Apis/vendor
    Apis/vendor_category
    Apis/vendor_detail
+   Apis/vendor_post
+   Apis/vendor_put
    Apis/quotation
 
 Indices and tables
