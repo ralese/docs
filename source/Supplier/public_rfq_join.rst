@@ -8,7 +8,7 @@ We are assuming that you're already at(open) the Public RFQ Detail page.
 Before Login
 ------------
 
-*If you're already logged in and already in the Public RFQ detail page, you can skip this section.
+If you're already logged in and already in the Public RFQ detail page, you can skip this section.
 
 You can view the public RFQ before you login but for join the public RFQ, login is a must.
 
@@ -44,6 +44,8 @@ Create Quotation
     :alt: role select
  
  - you just need to input your bid price (the unit price will be automatically calculated)
+ 
+ - don't forget to choose the tax menu to define that your inputted price is already included tax, excluded or no tax.
  
  - you can upload your support files/attachment for each item(format file supported: \*.png, \*.gif, \*.jpg, \*.jpeg, \*.doc, \*.docx, \*.xls, \*.xlsx, \*.pdf)
  
