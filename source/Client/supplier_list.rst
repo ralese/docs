@@ -16,8 +16,8 @@ You can add your own supplier list into this website for invite them to your cre
 Create New Supplier
 -------------------
 
- .. image:: ../img_src/addsup.png
-     :width: 600px
+ .. image:: ../img_src/supup.png
+     :width: 430px
      :alt: Login Section
 
  - Click "Add Supplier" button on the top right of this page.
@@ -26,7 +26,7 @@ Create New Supplier
     :width: 600px
     :alt: Login Section
  
- - Side panel will be opened and you could input the company type, company name, category, contact person, email and phone.
+ - Side panel will be opened and you could input the company type, company name, Locations, category, contact person, email and phone.
  - Then you can click "Save" button to save the supplier. 
  
 Edit/Update Supplier
@@ -44,7 +44,7 @@ Import Your Supplier List
 -------------------------
 
  .. image:: ../img_src/supup.png
-    :width: 600px
+    :width: 430px
     :alt: Login Section
 
  - You can click on "Upload Supplier" on the top right of the page.
