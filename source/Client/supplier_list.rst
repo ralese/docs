@@ -51,7 +51,7 @@ Import Your Supplier List
  - Side panel will be opened and click "Download Excel" to download excel template for supplier data.
  - Inside the excel template:
  
-  - There are 7 columns in excel file (Supplier Type, Supplier Name, Contact Person, Email, Phone, Category 1, Category 2, Category 3).
+  - There are 19 columns in excel file (Supplier Type, Supplier Name, Contact Person, Email, Phone, 8 categories and 5 locations).
   - On the second line, there are options for supplier type and category. You can copy the second row to third row and so on, so you have the same options for them.
   - Please remember to fill supplier name, contact person, email and phone.
 
