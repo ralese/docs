@@ -21,6 +21,7 @@ Welcome to eSourcing's documentation!
    Client/getting_started
    Client/supplier_list
    Client/rfq
+   Client/pin-rfq.rst
    
 .. _supplier-documentation:
 

@@ -105,3 +105,34 @@ You can also filter this RFQ with Start Date, End Date, Title or Description, RF
 To view or edit the RFQ detail, you can click the "View" button, you can also resend the invitation email to the supplier.
 
 To compare the submitted quotation(s) for a RFQ, click the "Compare" button, you can choose the winner supplier from the compare page.
+
+RFQ Detail
+----------
+
+In RFQ detail page you can review and edit the current active RFQ.
+
+There are 4 section in this page:
+
+.. image:: ../img_src/detailrfq.png
+      :width: 800px
+      :alt: Login Section
+
+- RFQ Detail, display the Overview of the RFQ, also include Charts that displays the current statistic information.
+- Items, hidden by default, you can press the chevron icon to display the content. This section displays the items that needed in this RFQ.
+- Quotation and invitations displays the list of submitted quotation and the list of supplier invitation.
+- Message board, you can send message directly to all member who present in this RFQ.
+
+Message board
+-------------
+
+Direct communication between the client and the suppler is now possible with this feature.
+
+.. image:: ../img_src/message.png
+      :width: 800px
+      :alt: Login Section
+
+To create message, just click 'Post message' button, input your message and click send.
+
+Please note that your message can directly read by all members, so please makse sure you didn't post any ci=onfidential information in this message board.
+
+
